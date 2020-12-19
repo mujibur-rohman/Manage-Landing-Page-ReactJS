@@ -1,0 +1,62 @@
+.footer {
+    background-color: var(--Dark-Blue);
+    padding: 2rem 1rem;
+}
+
+.footer form {
+    text-align: center;
+}
+
+form input {
+    padding: 15px 20px;
+    width: 70%;
+    border-radius: 50px;
+    margin-right: 10px;
+    border: none;
+}
+
+form button {
+    padding: 15px 25px;
+    cursor: pointer;
+    color: #fff;
+    font-weight: 600;
+    border-radius: 50px;
+    border: none;
+    background-color: var(--Bright-Red);
+}
+
+.footer-item {
+    text-align: center;
+    margin-bottom: 2rem;
+}
+
+.logo-footer {
+    background-color: white;
+    padding: 10px;
+    border-radius: 20px;
+    margin-top: 2rem;
+}
+
+.sosmed-footer img {
+    margin: 0 10px;
+    width: 30px;
+    margin-bottom: 2rem;
+}
+
+.footer-item p {
+    color: var(--Text-light);
+}
+
+
+@media screen and (min-width: 876px) {
+    .footer {
+        display: flex;
+        justify-content: space-around;
+        padding: 2rem 1rem;
+    }
+
+    .footer-item{
+        flex: 1;
+        margin-bottom: 0;
+    }
+}
